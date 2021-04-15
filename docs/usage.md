@@ -8,6 +8,14 @@ To set up the theme exactly like our demo stores, you may need to install the ou
 
 For displaying your Instagram photos on your website, you can use our free tool [PapaThemes Instagram](https://instagram.papathemes.com/). We will guide you step by step later in this manual.
 
+### Customzing Typography, Fonts and Colors
+
+Customzing Typography, Fonts and Colors, Buttons in **Page Builder** > **Theme Styles** > **General**. There are dozens of options to help you customize your website beautifully and uniquely.
+
+### Customzing Checkout Page's Typography and Colors
+
+Customzing the checkout page's typography and colors in **Page Builder** > **Theme Styles** > **Optimized Checkout**
+
 ### Installing PapaThemes Widgets App
 
 Find and install **PapaThemes Widgets** app from [BigCommerce Apps Marketplace](https://www.bigcommerce.com/apps/).
@@ -544,12 +552,254 @@ Follow [Newsletter Subscription Form instruction](#newsletter-subscription-form)
 In **Page Builder** > **Theme Styles** > **Footer** > **Newsletter** > set **Style** = `Grocery`.
 
 
+## Customizing Products Display
+
+### Product Card
+
+Configuring product cards in **Page Builder** > **Theme Styles** > **Products** > **Product cards**.
+
+- **Alignment**: Specifying content alignment `left` or `center`.
+- **Product title color**: Specifying the product name's color.
+- + **Hover**: Specifying color when hover or focus.
+- **Button text color**: Specifying the button text color.
+- + **Background**: Specifying the button background color.
+- + **Border**: Specifying the button border color.
+- **Show second image on hover**: Displaying the second image when hover the product card.
+
+### Displaying product price ranges
+
+By default product price ranges is enabled. To turn off, Go to **Page Builder** > **Theme Styles** > **Products** > uncheck **Price ranges** checkbox.
 
 
-## Customizing Product Pages
+### Hiding prices for non logged in customers
+
+To turn on this feature, go to **Page Builder** > **Theme Styles** > **Products** > tick **Restrict Purchase to Login** checkbox.
+
+![hide-prices](img/hide-prices.jpg)
+
+### Redirecting to cart page after product added to cart
+
+By default the cart popup is displayed, if you want to take customer to the cart page instead, go to **Page Builder** > **Theme Styles** > **Products** > tick **Redirect to cart page after add to cart** checkbox.
+
+### Showing/Hiding Quick-View button
+
+By default quick-view buttons appear on all product cards. To hide it, go to **Page Builder** > **Theme Styles** > **Products** > untick **Show Quickview** checkbox.
+
+### Showing/Hiding the quantity box on PDP
+
+By default the quantity box shows up, to hide it, go to **Page Builder** > **Theme Styles** > **Products** > untick **Show quantity selection on product pages** checkbox.
+
+### Customizing the popup displayed after product added to cart
+
+In **Page Builder** > **Theme Styles** > **Products** > **Popup after added to cart**:
+
+- `Default`: Displaying the large popup.
+- `Mini`: Displaying a smaller popup that has auto close.
+- `Hide`: Not show any popup.
+
+Mini added to cart popup:
+
+![mini-add-to-cart-popup](img/mini-add-to-cart-popup.jpg)
+
+### Displaying Recently Viewed Products
+
+Recently viewed products only display for logged-in customers.
+
+To enable it, go to **Page Builder** > **Theme Styles** > **Products** > **Show recently viewed** select number of products to display.
+
+
+### Customizing Price Labels
+
+You can customize sale price label, before sale price label, retail price label or regular price label in 
+**Page Builder** > **Theme Styles** > **Products** > **Price Labels**
+
+![configure-price-labels](img/configure-price-labels.jpg)
+
+### Displaying product weight, dimensions on PDP
+
+Go to **Page Builder** > **Theme Styles** > **Products** > **Product Page**.
+
+- Tick **Show product weight** checkbox.
+- Tick **Show product dimensions** checkbox.
+
+### Displaying product image thumbnails vertically or horizontally
+
+**Page Builder** > **Theme Styles** > **Products** > **Product Page**, tick **Show image thumbnails vertically** to display product thumbnails vertically, otherwise it's displayed horizontally.
+
+### Displaying product bulk pricing inline in table
+
+Instead of displaying bulk pricing in a popup modal, you can display it inline by going to **Page Builder** > **Theme Styles** > **Products** > **Product Page**, tick **Show bulk price as table**.
+
+![bulk-pricing-table](img/bulk-pricing-table.jpg)
+
+### Displaying product custom fields in a separated tab
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page**:
+
+- Tick **Show custom fields in tab** checkbox.
+- Enter the tab title in the next **Tab title** box.
+
+![product-custom-fields-tab](img/product-custom-fields-tab.jpg)
+
+### Displaying Delivery & Returns tab
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page**:
+
+- Tick **Show Delivery & Returns tab** checkbox.
+- Enter the tab title in the next **Tab title** box.
+
+You can add specific content or global content using BC widgets:
+
+![add-widgets-to-delivery-returns-tab](img/add-widgets-to-delivery-returns-tab.jpg)
+
+
+### Numbers of products, reviews, thumbnails
+
+In **Page Builder** > **Theme Styles** > **Products** > **Product Page**:
+
+- **Number of Product Reviews**: Specifying number of product reviews displayed.
+- **Number of Related Products**: Specifying number of related products displayed.
+- **Number of Customers Also Viewed Products**: Specifying number of customer also viewed products displayed.
+- **Number of visible thumbnails**: Specifying number of images displayed in the product thumbnails slider.
+
+
+### Displaying Swatch Options in the dropdown select box
+
+In **Page Builder** > **Theme Styles** > **Products** > **Swatch display type**:
+
+- Default (Square): Displaying the regular swatches by default.
+- Dropdown: Displaying swatches in the dropdown select box.
+- Dropdown + Square: Displaying swatches in the dropdown select box in addition to regular swatches.
+
+![swatch-dropdown](img/swatch-dropdown.jpg)
+
+
+### Displaying Frequently Bought Together Products
+
+![frequently-bought-together](img/frequently-bought-together.jpg)
+
+Enabling this feature in **Page Builder** > **Theme Styles** > **Products** > **Frequently Bought Together**, Select **Position** to display it.
+
+- **Load products from**: Specifing products to display here.
+  - `Custom fields __alsobought`: Specifying the relevant products in product custom fields with name `__alsobought` and value is the relevant product ID. For example:
+  ![edit-product-bought-together](img/edit-product-bought-together.png)
+  - `Related products`: Pulling from the related products.
+  - `Similar by biews`: Pulling from customer also viewed products.
+- **Auto select all items**: Auto select or unselect all frequently bought together products.
+- **Thumbnail size**: Specifying the thumbnail image size.
+### Configuring swatch dimension
+
+In **Page Builder** > **Theme Styles** > **Products** > **Swatch display type** > Set **Swatch size**.
+
+
+### Sale badge, Condition badge and custom text badges
+
+![product-badges](img/product-badges.jpg)
+
+Displaying the sale badge in **Page Builder** > **Theme Styles** > **Products** > **Product sale badges**, tick **Show sale badges**.
+
+- **Label**: Specifying the badge text.
+- **Text color**: Specifying the badge text color.
+- **Background color**: Specifying the badge background color
+
+Displaying the condition badge in **Condition badges**, tick **Show condition badges**.
+
+Displaying the condition badge in **Custom badges**, tick **Enable custom badget from '__badge' custom field**. Edit product, add custom field with name `__badge` and value is the badge text.
+
+- **Text color**: Specifying the text color of the custom badge.
+- **Background color**: Specifying the background color of the custom badge.
+
+### Configuring image sizes
+
+
+In **Page Builder** > **Theme Styles** > **Products** > **Image Sizes**:
+
+- Main product images: Specifying the main product image size displayed on PDP.
+- Thumbnail image: Specifying the product thumbnail size.
+- Zoomed image: Specifying the zoomed image size.
+- Image in gallery view: Specifying product card image size.
+
 
 ## Customizing Category Pages
 
+Configuring the category pages in **Page Builder** > **Theme Styles** > **Products** > **Category Page**.
+
+### Products Display Type
+
+Theme supports displaying products in grid mode (2, 3, 4 or 6 products per row) or in list mode or bulk order mode. In **Products display type**, select the particular display mode.
+
+- **Show bulk order mode (if select, list mode replaced by bulk order mode)**: if selected, the Bulk Order layout mode will display instead of the regular list mode.
+
+**Grid 6 columns:**
+
+![products-display-type-grid6](img/products-display-type-grid6.jpg)
+
+**Bulk Order mode:**
+
+![products-display-type-bulk-order](img/products-display-type-bulk-order.jpg)
+
+**List mode:**
+
+![products-display-type-list](img/products-display-type-list.jpg)
+
+
+### Displaying Shop by Brand
+
+- **Shop by Brand**: Specifing number of popular brands to display.
+
+![popular-brands-sidebar](img/popular-brands-sidebar.jpg)
+
+### Displaying Price Slider
+
+- **Shop by Price**:
+  - `Slider`: Displaying the price slider.
+  - `List`: Displaying price list.
+  - `Hide`.
+
+![shop-by-price-slider](img/shop-by-price-slider.jpg)
+
+### Display Bulk Order layout
+
+To display this bulk order layout, select **Products display type** = `List`, and tick **Show bulk order mode (if select, list mode replaced by bulk order mode)**.
+
+![products-display-type-bulk-order](img/products-display-type-bulk-order.jpg)
+
+### Display contextual search
+
+This feature allows searching products within the current category and the current selected filter.
+
+![contextual-search](img/contextual-search.jpg)
+
+Select **Show quick search in category** = `Show` to enable it.
+
+- **+ Show results in descendent categories**: if selected, it also displays results in the descentent categories.
+
+### Display subcategory image thumbnails
+
+This feature allow displaying subcategory thumbnails before products.
+
+Select **Show subcategory thumbnails** to enable it.
+
+![subcategory-thumbnails](img/subcategory-thumbnails.jpg)
+
+### Common Settings
+
+- **Number of products per page**: Specifying number of products to display per page.
+- **Show category image**: Displaying the catgory image or not.
+- **Show category description on AMP page**: Displaying category description on AMP category page or not. If the category content contains images, the AMP page could be invalid. It's recommended to turn off this option.
+
+## Customizing Brand Page & Search Page
+
+Configuring the brand page in **Page Builder** > **Theme Styles** > **Products** > **Brand Page**.
+
+- **Number of brands per page**: Specifying number of brands to display per page.
+- **Number of products per page**: Specifying number of products to display per page.
+- **Brand image in gallery view**: Specifying the brand card image size.
+- **Brand image in brand page**: Specifying the large image size displayed on the brand page.
+
+Configuring the search results page in **Page Builder** > **Theme Styles** > **Products** > **Search results**.
+
+- **Number of products per page**: Specifying number of products to display on the search results page.
 
 
 
