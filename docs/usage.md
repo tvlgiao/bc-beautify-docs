@@ -4,9 +4,9 @@
 
 Thanks for using our theme!
 
-To set up the theme exactly like our demo stores, you may need to install the our free app **PapaThemes Widgets**. This app provides additional widgets to build the content in Page Builder visually without coding skill. 
+To set up the theme exactly like our demo stores, you may need to install the our free app **[PapaThemes Widgets](https://www.bigcommerce.com/apps/papathemes-widgets/)**. This app provides additional widgets to build the content in Page Builder visually without coding skill. 
 
-For displaying your Instagram photos on your website, you can use our free tool [PapaThemes Instagram](https://instagram.papathemes.com/). We will guide you step by step later in this manual.
+For displaying your Instagram photos on your website, you can use our free tool **[PapaThemes Instagram](https://instagram.papathemes.com/)**. We will guide you step by step later in this manual.
 
 ### Customzing Typography, Fonts and Colors
 
@@ -18,7 +18,7 @@ Customzing the checkout page's typography and colors in **Page Builder** > **The
 
 ### Installing PapaThemes Widgets App
 
-Find and install **PapaThemes Widgets** app from [BigCommerce Apps Marketplace](https://www.bigcommerce.com/apps/).
+Find and install **[PapaThemes Widgets](https://www.bigcommerce.com/apps/papathemes-widgets/)** app from [BigCommerce Apps Marketplace](https://www.bigcommerce.com/apps/).
 
 After installed, go to your admin page, on the left sidebar, click **Apps** >** My Apps**, click **Launch** button of PapaThemes Widgets app to open the app:
 
@@ -28,7 +28,7 @@ Then click the Install buttons in turn to install all widgets for Beautify theme
 
 ![install-papathemes-widgets](img/install-papathemes-widgets.jpg)
 
-Go to Storefront > My Themes > click Customize in dropdown menu of Beautify theme to open Page Builder. Select any theme style to start:
+Go to **Storefront** > **My Themes** > click **Customize** in dropdown menu of Beautify theme to open Page Builder. Select any theme style to start:
 
 ![click-theme-customize](img/click-theme-customize.jpg)
 
@@ -327,6 +327,9 @@ Follow [Flex Banners instruction](#flex-banners) in Cosmetics style to add the w
 
 Follow [Customer Reviews Slider (or Testimonials) instruction](#customer-reviews-slider-or-testimonials) in Cosmetics style to add the widget.
 
+In **Page Builder** > **Theme Styles** > **Home Page** > **Third-party widgets**, choose **Columns in Products Feed widget**
+ = `4`.
+
 ### Brands Logo
 
 ![family-our-brands](img/family-our-brands.jpg)
@@ -523,25 +526,36 @@ These features are same as Cosmetics style:
 Follow [Category Banners instruction](#category-banners) in Grocery style to add this category banners
 
 
-### Who We Are
+### Leaderboard Banner
 
 ![furniture-whoweare](img/furniture-whoweare.jpg)
+
+Please follow [Leaderboard Banner instruction](#leaderboard-banner) in Cosmetics style to display this banner.
 
 ### Instagram Photos
 
 ![furniture-instagram](img/furniture-instagram.jpg)
 
-Please follow [Instagram Photos instruction](#instagram-photos) in Family style.
+Please follow [Instagram Photos instruction](#instagram-photos) in Family style to display Instagram photos.
 
 
 ### Customer Reviews
 
 ![furniture-customer-reviews](img/furniture-customer-reviews.jpg)
 
+Follow [Customer Reviews Slider (or Testimonials) instruction](#customer-reviews-slider-or-testimonials) in Cosmetics style to add the widget.
 
-### Hero Banners
+In each review item, select **Style for theme** = `Beautify Furniture`.
+
+
+
+### Flex Banners
 
 ![furniture-hero-banners](img/furniture-hero-banners.jpg)
+
+Pleae follow [Flex Banners instruction](#flex-banners) in Cosmetics style to display these hero banners.
+
+In each banner, enable **Show heading**, **Show description** and **Action button**. Click on the brush icon next to Action button to open Action button setting panel, choose **Style** = `underline`.
 
 ### Newsletter Subscription Form
 
