@@ -7,6 +7,6 @@ This theme is developed and supported by [Papathemes](https://papathemes.com)
 * [Usage Guide](usage.md)
 * [Update Guide](update.md)
 * [FAQs](faqs.md)
-* [Help & Support](support.md)
+* [Support](support.md)
 * [Release Notes](changelog.md)
 
