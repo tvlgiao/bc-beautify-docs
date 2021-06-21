@@ -1,7 +1,10 @@
 # Release Notes
 
+## 1.0.5 (06-16-2021)
+- Update theme description.
+
 ## 1.0.4 (06-04-2021)
-- Fix theme description
+- Update theme description.
 ## 1.0.3 (05-17-2021)
 - Move phrases and static strings to en.json for improving translation customizing. [#1850](https://github.com/bigcommerce/cornerstone/pull/1850)
 
