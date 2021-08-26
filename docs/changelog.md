@@ -1,5 +1,12 @@
 # Release Notes
 
+## 1.1.0 (08-26-2021)
+- Fix vertical product image thumbnail display incorrect
+- Discount 25%
+
+## 1.0.6 (07-15-2021)
+- Fix syntax error when the home carousel has no text
+
 ## 1.0.5 (06-16-2021)
 - Update theme description.
 
