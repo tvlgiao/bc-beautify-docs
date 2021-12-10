@@ -14,7 +14,7 @@
 
   <link rel="stylesheet" href="css/theme.css" />
   <link rel="stylesheet" href="css/theme_extra.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
   <link href="css/style.css" rel="stylesheet" />
   
   <script>
@@ -26,9 +26,8 @@
   
   <script src="js/jquery-2.1.1.min.js" defer></script>
   <script src="js/modernizr-2.8.3.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
-  
   <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -49,10 +48,10 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href="." class="icon icon-home"> Beautify Theme User Guide</a>
+        <a href="index.html" class="icon icon-home"> Beautify Theme User Guide</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -81,6 +80,12 @@
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href="changelog.html">Release Notes</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#120-12-10-2021">1.2.0 (12-10-2021)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#111-09-09-2021">1.1.1 (09-09-2021)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#-end-discount-program">- End discount program.</a>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#110-08-26-2021">1.1.0 (08-26-2021)</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#106-07-15-2021">1.0.6 (07-15-2021)</a>
@@ -109,7 +114,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href=".">Beautify Theme User Guide</a>
+        <a href="index.html">Beautify Theme User Guide</a>
       </nav>
 
       
@@ -117,7 +122,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".">Docs</a> &raquo;</li>
+    <li><a href="index.html">Docs</a> &raquo;</li>
     
       
     
@@ -129,10 +134,35 @@
   
   <hr/>
 </div>
+
           <div role="main">
             <div class="section">
               
                 <h1 id="release-notes">Release Notes<a class="headerlink" href="#release-notes" title="Permanent link">&para;</a></h1>
+<h2 id="120-12-10-2021">1.2.0 (12-10-2021)<a class="headerlink" href="#120-12-10-2021" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Fix search box width not equal navUser when the site logo is center.</li>
+<li>Fix Frequently Bought Together display money decimal incorrect</li>
+<li>Tweak Google checkout button</li>
+<li>Fix newsletter heading on cart page</li>
+<li>Fix product card overlap on mobile</li>
+<li>Change Hotline to Call us</li>
+<li>Remove development code</li>
+<li>Improve navUser labels display</li>
+<li>Update from Supermarket theme:</li>
+<li>Fix Google Structured Data schema for product reviews - Invalid object type for field "author".</li>
+<li>Fix Recently Viewed Products dropdown position wrong when 'row' class exists (Foundation bug)</li>
+<li>Revert SCSS for NodeJS 10 compatibility.</li>
+<li>Fix auto fit 1 line menu not display standard menu + check right edge more accurately.</li>
+<li>Fix HTML encoding in Address List + Edit Account pages</li>
+<li>Fix SCSS compile error in NodeJS v12</li>
+<li>[New Feature] Display Recently Viewed Products for everyone</li>
+<li>Remove recently viewed products limit</li>
+<li>[CORNERSTONE] HTML Entity displayed as is via system/error message on a Storefront. <a href="https://github.com/bigcommerce/cornerstone/pull/1888">#1888</a></li>
+<li>Fix nav user icon padding on medium screen</li>
+</ul>
+<h2 id="111-09-09-2021">1.1.1 (09-09-2021)<a class="headerlink" href="#111-09-09-2021" title="Permanent link">&para;</a></h2>
+<h2 id="-end-discount-program">- End discount program.<a class="headerlink" href="#-end-discount-program" title="Permanent link">&para;</a></h2>
 <h2 id="110-08-26-2021">1.1.0 (08-26-2021)<a class="headerlink" href="#110-08-26-2021" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Fix vertical product image thumbnail display incorrect</li>
@@ -199,15 +229,16 @@
   </div>
 
   <div class="rst-versions" role="note" aria-label="versions">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-      
-        <span><a href="support.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-    </span>
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="support.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
 </div>
     <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
     <script src="js/theme.js" defer></script>
       <script src="https://use.fontawesome.com/540034d990.js" defer></script>
       <script src="search/main.js" defer></script>
