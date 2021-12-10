@@ -1,5 +1,29 @@
 # Release Notes
 
+## 1.2.0 (12-10-2021)
+- Fix search box width not equal navUser when the site logo is center.
+- Fix Frequently Bought Together display money decimal incorrect
+- Tweak Google checkout button
+- Fix newsletter heading on cart page
+- Fix product card overlap on mobile
+- Change Hotline to Call us
+- Remove development code
+- Improve navUser labels display
+- Update from Supermarket theme:
+- Fix Google Structured Data schema for product reviews - Invalid object type for field "author".
+- Fix Recently Viewed Products dropdown position wrong when 'row' class exists (Foundation bug)
+- Revert SCSS for NodeJS 10 compatibility.
+- Fix auto fit 1 line menu not display standard menu + check right edge more accurately.
+- Fix HTML encoding in Address List + Edit Account pages
+- Fix SCSS compile error in NodeJS v12
+- [New Feature] Display Recently Viewed Products for everyone
+- Remove recently viewed products limit
+- [CORNERSTONE] HTML Entity displayed as is via system/error message on a Storefront. [#1888](https://github.com/bigcommerce/cornerstone/pull/1888)
+- Fix nav user icon padding on medium screen
+
+## 1.1.1 (09-09-2021)
+- End discount program.
+- 
 ## 1.1.0 (08-26-2021)
 - Fix vertical product image thumbnail display incorrect
 - Discount 25%
