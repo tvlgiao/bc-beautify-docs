@@ -1,5 +1,8 @@
 # Release Notes
 
+## 1.2.1 (02-04-2022)
+- Fix wishlist items pagination next button not working
+
 ## 1.2.0 (12-10-2021)
 - Fix search box width not equal navUser when the site logo is center.
 - Fix Frequently Bought Together display money decimal incorrect
