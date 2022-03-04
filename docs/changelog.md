@@ -1,5 +1,12 @@
 # Release Notes
 
+## 1.2.2 (03-04-2022)
+- Remove header logo css on checkout page
+- Added new region on the cart page [#1901](https://github.com/bigcommerce/cornerstone/pull/1901)
+- Added custom event for product price change on PDP page. [#1948](https://github.com/bigcommerce/cornerstone/pull/1948)
+- PAYPAL-886 added container setting for spb container. [#2041](https://github.com/bigcommerce/cornerstone/pull/2041)
+- Fix PayPal Pay Later Message on Cart page
+
 ## 1.2.1 (02-04-2022)
 - Fix wishlist items pagination next button not working
 
