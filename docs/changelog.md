@@ -1,5 +1,12 @@
 # Release Notes
 
+## 1.2.3 (04-30-2022)
+- Update additional checkout buttons' style on the preview cart popup.
+- Fix Scroll to Top button was hidden behind the newsletter box.
+- Only display Sold Out label if product purchasibility is not "cannot be purchased"
+- Fix price currency format in Frequently Bought Together
+
+
 ## 1.2.2 (03-04-2022)
 - Remove header logo css on checkout page
 - Added new region on the cart page [#1901](https://github.com/bigcommerce/cornerstone/pull/1901)
