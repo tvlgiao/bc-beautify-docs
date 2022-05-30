@@ -1,5 +1,12 @@
 # Release Notes
 
+## 1.2.5 (05-30-2022)
+- Fix custom badges not appears on PDP
+
+## 1.2.4 (05-14-2022)
+- Add theme option "Show product description below product details"
+- Update translation
+
 ## 1.2.3 (04-30-2022)
 - Update additional checkout buttons' style on the preview cart popup.
 - Fix Scroll to Top button was hidden behind the newsletter box.
