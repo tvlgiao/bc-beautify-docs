@@ -1,5 +1,10 @@
 # Release Notes
 
+## 1.2.6 (09-23-2022)
+- Fix duplicated product_below_related region
+- Fix SCSS error on NodeJS 14
+- Fix duplicated top banner on category page
+
 ## 1.2.5 (05-30-2022)
 - Fix custom badges not appears on PDP
 
