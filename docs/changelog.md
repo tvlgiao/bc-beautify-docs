@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.2.7 (10-13-2022)
+- Fix in-category search not working when multiple search boxes are present
+- Fix invalid condition in merchant listing schema
+
 ## 1.2.6 (09-23-2022)
 - Fix duplicated product_below_related region
 - Fix SCSS error on NodeJS 14
