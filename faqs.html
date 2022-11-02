@@ -74,6 +74,8 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#fix-compare-page-messed-up-for-many-items">Fix compare page messed up for many items</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#move-the-submenu-dropdown-to-left-if-it-exceeds-the-windows-width">Move the submenu dropdown to left if it exceeds the window's width</a>
+    </li>
     </ul>
                     </li>
                 </ul>
@@ -136,6 +138,33 @@ style.innerHTML = '.supermarket-pageType--compare .page-content { overflow: auto
 + '@media (min-width: 801px) { .compareTable-product .card { min-width: 250px } }';
 document.head.appendChild(style);
 })();
+&lt;/script&gt;
+</code></pre>
+<h2 id="move-the-submenu-dropdown-to-left-if-it-exceeds-the-windows-width">Move the submenu dropdown to left if it exceeds the window's width<a class="headerlink" href="#move-the-submenu-dropdown-to-left-if-it-exceeds-the-windows-width" title="Permanent link">&para;</a></h2>
+<p>Go to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>, click <strong>Create a Script</strong>, choose:</p>
+<ul>
+<li><strong>Location on page</strong> = <code>Footer</code></li>
+<li><strong>Select pages where script will be added</strong> = <code>All Pages</code></li>
+<li><strong>Script type</strong> = <code>Script</code></li>
+</ul>
+<p>Enter the script below to <strong>Scripts contents</strong>:</p>
+<pre><code class="language-html">&lt;script&gt;
+(function($) {
+    $('.navPages-item').on('mouseover', function(event) {
+        var $el = $(event.currentTarget);
+        $el.find('.navPage-subMenu').each(function(j, el2) {
+            var $el2 = $(el2);
+            $el2.css('left', '');
+
+            var right = $el2.offset().left + $el2.width();
+            var left = $el2.offset().left;
+
+            if (right &gt; window.innerWidth) {
+                $el2.css('left', Math.floor(window.innerWidth - right));
+            }
+        });
+    });
+})(window.jQueryTheme || window.jQuerySupermarket || window.jQuery);
 &lt;/script&gt;
 </code></pre>
               
