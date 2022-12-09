@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.3.0 (12-09-2022)
+- Add alert colors to theme settings
+- Update to [Supermarket 6.2.0](https://papathemes.com/blog/bigcommerce-supermarket-theme-release-notes/).
+
 ## 1.2.7 (10-13-2022)
 - Fix in-category search not working when multiple search boxes are present
 - Fix invalid condition in merchant listing schema
