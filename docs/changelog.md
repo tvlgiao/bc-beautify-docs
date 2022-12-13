@@ -1,6 +1,9 @@
 # Release Notes
 
-## 1.3.0 (12-09-2022)
+## 1.3.1 (12-13-2022)
+- Rename setting variables: fontSize-*, button-radius, carousel-bgColor-opacity, input-radius, container-border-radius, to change the variable types.
+
+  ## 1.3.0 (12-09-2022)
 - Add alert colors to theme settings
 - Update to [Supermarket 6.2.0](https://papathemes.com/blog/bigcommerce-supermarket-theme-release-notes/).
 
