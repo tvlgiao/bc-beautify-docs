@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.3.2 (03-09-2023)
+- Style PayPal GPay Venmo additional checkout buttons
+- Update stencil-utils 6.15.0
+
 ## 1.3.1 (12-13-2022)
 - Rename setting variables: fontSize-*, button-radius, carousel-bgColor-opacity, input-radius, container-border-radius, to change the variable types.
 
