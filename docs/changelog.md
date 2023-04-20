@@ -1,5 +1,8 @@
 # Release Notes
 
+## 1.3.3 (04-20-2023)
+- Fix SCSS Compiler
+
 ## 1.3.2 (03-09-2023)
 - Style PayPal GPay Venmo additional checkout buttons
 - Update stencil-utils 6.15.0
