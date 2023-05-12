@@ -1,5 +1,8 @@
 # Release Notes
 
+## 1.3.4 (05-12-2023)
+- Display final price after non sale price in price range on PDP
+
 ## 1.3.3 (04-20-2023)
 - Fix SCSS Compiler
 
