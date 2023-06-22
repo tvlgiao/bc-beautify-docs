@@ -1,5 +1,11 @@
 # Release Notes
 
+## 1.4.0 (06-22-2023)
+- Fix edit cart item display incorrect message when product is unavailable / out of stock
+- Fixed unavailable options' strikeout display during cart edit
+- Fix SCSS compiler in fonts-icons.scss for Node 16
+- Increase warning of asset size limit to 500KB
+
 ## 1.3.4 (05-12-2023)
 - Display final price after non sale price in price range on PDP
 
