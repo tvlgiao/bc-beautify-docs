@@ -54,3 +54,30 @@ Enter the script below to **Scripts contents**:
 })(window.jQueryTheme || window.jQuerySupermarket || window.jQuery);
 </script>
 ```
+
+## Fixing the Issue of Cart Item Not Being Removable in Version 1.3.0
+
+We will address this issue in our next version update. In the meantime, you can use the following custom script as a temporary solution:
+
+Go to **Storefront** > **Script Manager**, click **Create a Script**, choose:
+
+- **Location on page** = `Footer`
+- **Select pages where script will be added** = `All Pages`
+- **Script type** = `Script`
+
+Enter the script below to **Scripts contents**:
+
+```html
+<script>
+(function($) {
+    $(document).ready(() => {
+        $('.cart-remove[data-cart-itemid]').off('click').on('click', event => {
+            var $el = $(event.currentTarget);
+            event.preventDefault();
+            event.stopPropagation();
+            window.stencilUtils.api.cart.itemRemove($el.data('cartItemid'), () => location.reload());
+        });
+    });
+})(window.jQueryTheme || window.jQuerySupermarket || window.jQuery);
+</script>
+```
