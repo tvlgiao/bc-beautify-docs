@@ -76,6 +76,8 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#move-the-submenu-dropdown-to-left-if-it-exceeds-the-windows-width">Move the submenu dropdown to left if it exceeds the window's width</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fixing-the-issue-of-cart-item-not-being-removable-in-version-130">Fixing the Issue of Cart Item Not Being Removable in Version 1.3.0</a>
+    </li>
     </ul>
                     </li>
                 </ul>
@@ -162,6 +164,28 @@ document.head.appendChild(style);
             if (right &gt; window.innerWidth) {
                 $el2.css('left', Math.floor(window.innerWidth - right));
             }
+        });
+    });
+})(window.jQueryTheme || window.jQuerySupermarket || window.jQuery);
+&lt;/script&gt;
+</code></pre>
+<h2 id="fixing-the-issue-of-cart-item-not-being-removable-in-version-130">Fixing the Issue of Cart Item Not Being Removable in Version 1.3.0<a class="headerlink" href="#fixing-the-issue-of-cart-item-not-being-removable-in-version-130" title="Permanent link">&para;</a></h2>
+<p>We will address this issue in our next version update. In the meantime, you can use the following custom script as a temporary solution:</p>
+<p>Go to <strong>Storefront</strong> &gt; <strong>Script Manager</strong>, click <strong>Create a Script</strong>, choose:</p>
+<ul>
+<li><strong>Location on page</strong> = <code>Footer</code></li>
+<li><strong>Select pages where script will be added</strong> = <code>All Pages</code></li>
+<li><strong>Script type</strong> = <code>Script</code></li>
+</ul>
+<p>Enter the script below to <strong>Scripts contents</strong>:</p>
+<pre><code class="language-html">&lt;script&gt;
+(function($) {
+    $(document).ready(() =&gt; {
+        $('.cart-remove[data-cart-itemid]').off('click').on('click', event =&gt; {
+            var $el = $(event.currentTarget);
+            event.preventDefault();
+            event.stopPropagation();
+            window.stencilUtils.api.cart.itemRemove($el.data('cartItemid'), () =&gt; location.reload());
         });
     });
 })(window.jQueryTheme || window.jQuerySupermarket || window.jQuery);
