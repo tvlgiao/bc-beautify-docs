@@ -1,7 +1,7 @@
 # Release Notes
 
 ## 1.4.1 (06-29-2023)
-- Fix issue with deleting cart item in version 1.3.0
+- Fix issue with deleting cart item in version 1.4.0
 
 ## 1.4.0 (06-22-2023)
 - Fix edit cart item display incorrect message when product is unavailable / out of stock
