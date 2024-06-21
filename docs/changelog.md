@@ -1,5 +1,10 @@
 # Release Notes
 
+## 1.5.0 (06-21-2024)
+- Update deprecated emitOnErrors
+- fix jstree color
+- Fix brands grid, widget layout beautify-grid6 not center
+- Update [Supermarket 7.0.5](https://papathemes.com/blog/bigcommerce-supermarket-theme-release-notes/).
 
 ## 1.4.2 (09-22-2023)
 - Fix cart quantity input change not working
