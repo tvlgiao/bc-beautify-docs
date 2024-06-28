@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.5.1 (06-28-2024)
+- Fix currency dropdown not visible in Grocery style.
+- Remove dropdown background color and border color of navUser.
+
 ## 1.5.0 (06-21-2024)
 - Update deprecated emitOnErrors
 - fix jstree color
