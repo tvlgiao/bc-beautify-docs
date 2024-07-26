@@ -1,5 +1,10 @@
 # Release Notes
 
+## 1.5.2 (07-26-2024)
+- Fix qty input syntax error on cart/content.html
+- Update Supermarket 7.0.6:
+  - [CORNERSTONE] Extended initialization interface of the storefront-account-payments lib, added theme styles [#2335][https://github.com/bigcommerce/cornerstone/pull/2335]
+
 ## 1.5.1 (06-28-2024)
 - Fix currency dropdown not visible in Grocery style.
 - Remove dropdown background color and border color of navUser.
