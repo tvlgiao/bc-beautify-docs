@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.5.3 (11-08-2024)
+- Fix browser crash when editing options in Bulk Order layout with products that have an empty file
+- Fix undefined 'input-font-color' in add payment methods account page
+
 ## 1.5.2 (07-26-2024)
 - Fix qty input syntax error on cart/content.html
 - Update Supermarket 7.0.6:
