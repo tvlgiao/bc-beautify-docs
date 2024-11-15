@@ -4,6 +4,7 @@
 - Update Stencil using Node 20.17
 - bump bigcommerce/stencil-utils to 6.18.0
 - fix scss warning theme-mobile.scss
+- Restore stencil.config.js to fix bundle errors in Stencil CLI 8.4.1 & Node 20
 
 ## 1.5.3 (11-08-2024)
 - Fix browser crash when editing options in Bulk Order layout with products that have an empty file
