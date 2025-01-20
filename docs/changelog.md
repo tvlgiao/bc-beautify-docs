@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.6.0 (01-20-2025)
+- [CORNERSTONE] Add nonce to scripts in checkout and account pages [#2525](https://github.com/bigcommerce/cornerstone/pull/2525)
+- [CORNERSTONE] Use fetch when updating variants in cart ([#2521](https://github.com/bigcommerce/cornerstone/pull/2521))
+
 ## 1.5.4 (11-15-2024)
 - Update Stencil using Node 20.17
 - bump bigcommerce/stencil-utils to 6.18.0
@@ -112,7 +116,7 @@
 
 ## 1.1.1 (09-09-2021)
 - End discount program.
-- 
+-
 ## 1.1.0 (08-26-2021)
 - Fix vertical product image thumbnail display incorrect
 - Discount 25%
@@ -137,4 +141,3 @@
 - Based on Supermarket 4.8.4
 ## 1.0.0
 - Initial release.
-
