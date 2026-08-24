@@ -1,5 +1,12 @@
 # Release Notes
 
+## 1.7.0 (Upcoming)
+- [CORNERSTONE] Show featured promotion callouts on product cards and the product page ([#2695](https://github.com/bigcommerce/cornerstone/pull/2695), [#2702](https://github.com/bigcommerce/cornerstone/pull/2702))
+- Add backorder and stock availability messaging on product, cart and account pages
+- [CORNERSTONE] Dispatch an event on productOptionsChanged (#2400)
+- [CORNERSTONE] Fix: swap content/data keys in onProductOptionsChanged event detail (#2640)
+- Add seamless page-transition loading overlay
+
 ## 1.6.0 (01-20-2025)
 - [CORNERSTONE] Add nonce to scripts in checkout and account pages [#2525](https://github.com/bigcommerce/cornerstone/pull/2525)
 - [CORNERSTONE] Use fetch when updating variants in cart ([#2521](https://github.com/bigcommerce/cornerstone/pull/2521))
