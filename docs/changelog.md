@@ -1,6 +1,6 @@
 # Release Notes
 
-## 1.7.0 (Upcoming)
+## 1.7.0 (08-24-2026)
 - [CORNERSTONE] Show featured promotion callouts on product cards and the product page ([#2695](https://github.com/bigcommerce/cornerstone/pull/2695), [#2702](https://github.com/bigcommerce/cornerstone/pull/2702))
 - Add backorder and stock availability messaging on product, cart and account pages
 - [CORNERSTONE] Dispatch an event on productOptionsChanged (#2400)
